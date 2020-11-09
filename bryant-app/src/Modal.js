@@ -33,7 +33,7 @@ class Modal extends Component {
     render() {
         console.log(this.props)
         return (
-            <div  onClick={this.handleClick} className="flags">
+            <div onClick={this.handleClick} className="flags">
                 <h1> {this.props.name} </h1>
                 {this.props.modalinfo}
                 <img src={this.props.flag} height="120px"/>
